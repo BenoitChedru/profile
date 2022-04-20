@@ -1,0 +1,116 @@
+body{
+	background-color:rgb(227, 253, 253);
+	font-size:  17px;
+	font-family: 'Alegreya', serif;}
+
+
+h1{
+	font-weight: 100;
+	font-size: 45px;
+	color: rgb(26, 55, 77)}
+
+h2{
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgb(64,104,130);}
+
+a{
+	text-decoration: none;
+	color: rgb(113,201,206);
+}
+a:hover{
+	color: rgb(133, 244, 255);
+}
+
+hr{
+	color: rgb(26, 55, 77) ;
+}
+
+div{
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 3px;
+margin-right: 3px;
+}
+
+/* Custom Designs with Class-Elements*/
+.img-circle {
+	border-radius: 50px;
+	margin-bottom: 0.1px;
+}
+
+.blue-btn{
+	background-color:rgb(113,201,206);
+	color: white;
+	margin-top: 5px;
+	padding: 15px 20px;
+	border-width: 5px;
+	border-radius: 4px;
+	transition-duration: 0.4s;
+}
+
+.blue-btn:hover{
+	background-color: rgb(26, 55, 77);
+	
+}
+
+.horizontal-list{
+
+list-style: none;
+padding-left: 0px;
+}
+
+.horizontal-list li{
+	display: inline;
+	padding: 10px;
+}
+.horizontal-list i{
+	color:rgb(64,104,130);
+	font-size: 50px;
+	transition-duration: 0.3s;
+}
+.horizontal-list i:hover{
+	color: rgb(113,201,206);
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+#small{
+	font-size: 0.01px;
+}
+
+#Experience{
+	border-radius: 50px;
+	margin-bottom: 0.1px;
+}
+
+#ESSEC{
+float: right;
+margin-left: 10px;
+
+}
+/*Media Resizing*/
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
